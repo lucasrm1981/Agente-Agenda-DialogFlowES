@@ -1,0 +1,23 @@
+{
+  "description": "",
+  "language": "pt-br",
+  "shortDescription": "",
+  "examples": "",
+  "linkToDocs": "",
+  "displayName": "AgendaMedica",
+  "disableInteractionLogs": false,
+  "disableStackdriverLogs": true,
+  "defaultTimezone": "America/Buenos_Aires",
+  "isPrivate": true,
+  "mlMinConfidence": 0.3,
+  "supportedLanguages": [],
+  "enableOnePlatformApi": true,
+  "onePlatformApiVersion": "v2",
+  "secondaryKey": "c64335aff06e4b8b9b97c6238f7bdcd8",
+  "analyzeQueryTextSentiment": false,
+  "enabledKnowledgeBaseNames": [],
+  "knowledgeServiceConfidenceAdjustment": 0.0,
+  "dialogBuilderMode": false,
+  "baseActionPackagesUrl": "",
+  "enableSpellCorrection": false
+}

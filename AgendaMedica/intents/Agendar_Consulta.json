@@ -1,0 +1,88 @@
+{
+  "id": "749f509b-ec7f-447d-a70d-64ca5641a4a2",
+  "name": "Agendar_Consulta",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "a502be9d-bc21-4863-a0a4-5868b1d2b3da",
+          "name": "medico",
+          "required": true,
+          "dataType": "@especialidade",
+          "value": "$medico",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "pt-br",
+              "value": "Para qual especialidade você deseja agendar a consulta: Dermatologia, Pediatria ou Cardiologista"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "0b43ae38-b166-4740-8abb-5077cda3139f",
+          "name": "data",
+          "required": true,
+          "dataType": "@sys.date",
+          "value": "$data",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "pt-br",
+              "value": "Para qual dia você gostaria de marcar?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "16abc17a-7a3d-4649-af9b-3bfbe1cc9673",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Confirmado! Sua consulta de $medico foi agendada para o dia $data. Posso ajudar com algo mais?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

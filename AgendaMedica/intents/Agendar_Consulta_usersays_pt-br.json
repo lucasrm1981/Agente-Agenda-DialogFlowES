@@ -1,0 +1,56 @@
+[
+  {
+    "id": "b7b859b1-0f75-405b-ab7b-273e0bb0234b",
+    "data": [
+      {
+        "text": "marcação",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "fcc1a0ee-393f-4647-97ac-d918c6af5cbc",
+    "data": [
+      {
+        "text": "marcar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "fd2aa8b8-851b-49e9-8ae9-9a21b3df5d47",
+    "data": [
+      {
+        "text": "consulta",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "dd21015e-c3f1-4167-bccf-9602942581e2",
+    "data": [
+      {
+        "text": "\u003cfont dir\u003d\"auto\" style\u003d\"vertical-align: inherit;\"\u003e\u003cfont dir\u003d\"auto\" style\u003d\"vertical-align: inherit;\"\u003emédico\u003c/font\u003e\u003c/font\u003e",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

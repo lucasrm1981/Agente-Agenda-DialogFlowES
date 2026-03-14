@@ -1,0 +1,27 @@
+[
+  {
+    "value": "Cardiologia",
+    "synonyms": [
+      "Cardiologia",
+      "cardiologista",
+      "coração"
+    ]
+  },
+  {
+    "value": "Pediatria",
+    "synonyms": [
+      "Pediatria",
+      "pediatra",
+      "crianças"
+    ]
+  },
+  {
+    "value": "Dermatologia",
+    "synonyms": [
+      "Dermatologia",
+      "dermato",
+      "pele",
+      "dermatologista"
+    ]
+  }
+]
